@@ -1,0 +1,81 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #2E2E2E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1111;
+    opacity: .5;
+}
+
+.container {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+
+.nav {
+    display: flex;
+    margin-right: 20px;
+}
+
+.nav a {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 20px;
+}
+
+.burger {
+    display: none;
+}
+
+/*Media*/
+
+@media (max-width: 580px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .nav a {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        font-size: 25px;
+    }
+
+    .burger a i {
+        color: #FFFFFF;
+    }
+}

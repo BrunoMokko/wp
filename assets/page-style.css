@@ -1,0 +1,223 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #F7F7F7;
+}
+/*Page BG*/
+
+.page {
+    padding: 0 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background: url(../images/page/bg.png) center no-repeat;
+    background-size: cover;
+}
+
+.page__inner {
+    width: 80%;
+    border-right: 1px solid #DEDEDE;
+    padding-right: 80px;
+}
+
+.page__title {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+    margin: 60px 0 16px;
+}
+
+.page__suptitle {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+    color: #2E2E2E;
+    margin-bottom: 31px;
+}
+
+.page__suptitle::after {
+    content: '';
+    display: block;
+    width: 488px;
+    height: 1px;
+    background: #DEDEDE;
+    margin: 16px 0;
+}
+
+.page__text {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #2E2E2E;
+    margin-bottom: 60px;
+}
+
+/*Person Info*/
+
+.card__contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+}
+
+.card__name {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    color: #2E2E2E;
+    margin-left: 10px;
+}
+
+.card__date {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    color: #2E2E2E;
+
+}
+
+/*Aside Category*/
+
+.aside__bar {
+    margin: 60px auto 16px;
+    width: 20%;
+    padding: 0 15px;
+}
+
+.aside__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aside__title h2 {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 51px;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.aside__link {
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #2E2E2E;
+    margin-bottom: 31px;
+    transition: .2s linear;
+}
+
+.aside__link:hover {
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #6EA8FE;
+}
+
+.aside__link:nth-child(3):hover {
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #333;
+}
+
+.aside__link:nth-child(4):hover {
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #8C68CD;
+}
+
+.aside__link:nth-child(5):hover {
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #DC3545;
+}
+
+.aside__link:nth-child(6):hover {
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #479F76;
+}
+
+.aside__link:nth-child(7):hover {
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #FFC107;
+}
+
+@media (max-width: 890px) {
+    .page {
+        flex-direction: column;
+    }
+
+    .page__inner {
+        width: 100%;
+        border-right: 0;
+        padding: 0;
+    }
+
+    .aside__bar {
+        width: 100%;
+        border-top: 1px solid #DEDEDE;
+    }
+}
+
+@media (max-width: 615px) {
+    .page__suptitle {
+        line-height: 32px;
+        font-size: 30px;
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 366px) {
+
+    .page__title {
+        font-size: 31px;
+    }
+
+    .page__suptitle {
+            line-height: 20px;
+            font-size: 16px;
+            font-weight: 100;
+        }
+}

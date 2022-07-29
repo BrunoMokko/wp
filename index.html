@@ -1,0 +1,295 @@
+{# <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/header-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Oxygen:wght@300;400;700&family=Roboto:ital@0;1&display=swap"
+    rel="stylesheet">-->
+    <script src="w3.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div w3-include-html="header.html"></div>
+    <section class="section">
+        <div class="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <h1 class="intro__title">Let's do it together.</h1>
+                    <h2 class="intro__suptitle">We travel the world in search of stories. Come along for the ride.</h2>
+                    <a class="btn" href="#">View Latest Posts</a>
+                </div>
+            </div>
+        </div><!--/.intro-->
+    </section>
+    <section class="section">
+        <nav class="navbar">
+            <div class="container nav__block">
+                <div class="navbar__inner">
+                    <a class="navbar__link" href="#">Nature</a>
+                    <a class="navbar__link" href="#">Photography</a>
+                    <a class="navbar__link" href="#">Relaxation</a>
+                    <a class="navbar__link" href="#">Vacation</a>
+                    <a class="navbar__link" href="#">Travel</a>
+                    <a class="navbar__link" href="#">Adventure</a>
+                </div>
+            </div>
+        </nav><!--/.navbar-->
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Featured Posts</h2>
+            </div>
+            <!--Card-->
+            <div class="card">
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <a href="#">
+                                <img class="post__img" src="../wp/images/posts/1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="card__info">
+                            <div class="card__title">
+                                <a href="#">The Road Ahead</a> 
+                            </div>
+                            <div class="card__subtitle">The road ahead might be paved - it might not be.</div>
+                            <div class="card__contacts">
+                                <div class="person">
+                                    <div class="card__icon">
+                                        <img src="../wp/images/people/vogels.png" alt="">
+                                    </div>
+                                    <div class="card__name">Mat Vogels</div>
+                                </div>
+                                <div class="card__date">September 25, 2015</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.card__item-->
+                <div class="card__item">
+                    <div class="card__inner">
+                        <div class="card__img">
+                            <a href="#">
+                                <img class="post__img" src="../wp/images/posts/2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="card__info">
+                            <div class="card__title">
+                                <a href="#">From Top Down</a> 
+                            </div>
+                            <div class="card__subtitle">Once a year, go someplace you've never been before.</div>
+                            <div class="card__contacts">
+                                <div class="person">
+                                    <div class="card__icon">
+                                        <img src="../wp/images/people/wong.png" alt="">
+                                    </div>
+                                    <div class="card__name">William Wong</div>
+                                </div>
+                                <div class="card__date">September 25, 2015</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.card__item-->
+            </div><!--/.card-->
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Most Recent</h2>
+            </div>
+            <!--Recent-->
+            <div class="recent">
+                <div class="recent__item">
+                    <div class="recent__inner">
+                        <div class="recent__photo">
+                            <a href="#">
+                                <img class="recent__img" src="../wp/images/recent/1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="card__text">
+                            <a href="#">More</a> 
+                        </div>
+                        <div class="recent__info">
+                            <div class="recent__text">
+                                <div class="recent__title">
+                                    <a href="#">Still Standing Tall</a>
+                                </div>
+                                <div class="recent__subtitle">Life begins at the end of your comfort zone.</div>
+                            </div>
+                            <div class="recent__contacts">
+                                <div class="recent__person">
+                                    <div class="recent__icon">
+                                        <img src="../wp/images/people/wong.png" alt="">
+                                    </div>
+                                    <div class="recent__name">William Wong</div>
+                                </div>
+                                <div class="recent__date">9/25/2015</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.recent__item-->
+                <div class="recent__item">
+                    <div class="recent__inner">
+                        <div class="recent__img">
+                            <a href="#">
+                                <img class="recent__img" src="../wp/images/recent/2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="card__text">
+                            <a href="#">More</a>
+                        </div>
+                        <div class="recent__info">
+                            <div class="recent__text">
+                                <div class="recent__title">
+                                    <a href="#">Sunny Side Up</a>
+                                </div>
+                                <div class="recent__subtitle">No place is ever as bad as they tell you it's going to be.</div>
+                            </div>
+                            <div class="recent__contacts">
+                                <div class="recent__person">
+                                    <div class="recent__icon">
+                                        <img src="../wp/images/people/vogels.png" alt="">
+                                    </div>
+                                    <div class="recent__name">Mat Vogels</div>
+                                </div>
+                                <div class="recent__date">9/25/2015</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.recent__item-->
+                <div class="recent__item">
+                    <div class="recent__inner">
+                        <div class="recent__img">
+                            <a href="#">
+                                <img class="recent__img" src="../wp/images/recent/3.png" alt="">
+                            </a>
+                        </div>
+                        <div class="card__text">
+                            <a href="#">More</a>
+                        </div>
+                        <div class="recent__info">
+                            <div class="recent__text">
+                                <div class="recent__title">
+                                    <a href="#">Water Falls</a>
+                                </div>
+                                <div class="recent__subtitle">We travel not to escape life, but for life not to escape us.</div>
+                            </div>
+                            <div class="recent__contacts">
+                                <div class="recent__person">
+                                    <div class="recent__icon">
+                                        <img src="../wp/images/people/vogels.png" alt="">
+                                    </div>
+                                    <div class="recent__name">Mat Vogels</div>
+                                </div>
+                                <div class="recent__date">9/25/2015</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Recent Second-->
+            <div class="recent">
+                <div class="recent__item">
+                    <div class="recent__inner">
+                        <div class="recent__img">
+                            <a href="#">
+                                <img class="recent__img" src="../wp/images/recent/4.png" alt="">
+                            </a>
+                        </div>
+                        <div class="card__text">
+                            <a href="#">More</a>
+                        </div>
+                        <div class="recent__info">
+                            <div class="recent__text">
+                                <div class="recent__title">
+                                    <a href="#">Through the Mist</a>
+                                </div>
+                                <div class="recent__subtitle">Travel makes you see what a tiny place you occupy in the world.</div>
+                            </div>
+                            <div class="recent__contacts">
+                                <div class="recent__person">
+                                    <div class="recent__icon">
+                                        <img src="../wp/images/people/wong.png" alt="">
+                                    </div>
+                                    <div class="recent__name">William Wong</div>
+                                </div>
+                                <div class="recent__date">9/25/2015</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.recent__item-->
+                <div class="recent__item">
+                    <div class="recent__inner">
+                        <div class="recent__img">
+                            <a href="#">
+                                <img class="recent__img" src="../wp/images/recent/5.png" alt="">
+                            </a>
+                        </div>
+                        <div class="card__text">
+                            <a href="#">More</a>
+                        </div>
+                        <div class="recent__info">
+                            <div class="recent__text">
+                                <div class="recent__title">
+                                    <a href="#">Awaken Early</a>
+                                </div>
+                                <div class="recent__subtitle">Not all those who wander are lost.</div>
+                            </div>
+                            <div class="recent__contacts">
+                                <div class="recent__person">
+                                    <div class="recent__icon">
+                                        <img src="../wp/images/people/vogels.png" alt="">
+                                    </div>
+                                    <div class="recent__name">Mat Vogels</div>
+                                </div>
+                                <div class="recent__date">9/25/2015</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.recent__item-->
+                <div class="recent__item">
+                    <div class="recent__inner">
+                        <div class="recent__photo">
+                            <a href="#"></a>
+                                <img class="recent__img" src="../wp/images/recent/6.png" alt="">
+                            </a>
+                        </div>
+                        <div class="card__text">
+                            <a href="#">More</a>
+                        </div>
+                        <div class="recent__info">
+                            <div class="recent__text">
+                                <div class="recent__title">
+                                    <a href="#">Try it Always</a>
+                                </div>
+                                <div class="recent__subtitle">The world is a book, and those who do not travel read only one page.</div>
+                            </div>
+                            <div class="recent__contacts">
+                                <div class="recent__person">
+                                    <div class="recent__icon">
+                                        <img src="../wp/images/people/vogels.png" alt="">
+                                    </div>
+                                    <div class="recent__name">Mat Vogels</div>
+                                </div>
+                                <div class="recent__date">9/25/2015</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        w3.includeHTML();
+    </script>
+</body>
+</html>
+<!--include footer.html--> #}
